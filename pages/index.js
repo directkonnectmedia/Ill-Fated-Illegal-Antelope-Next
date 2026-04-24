@@ -26,14 +26,11 @@ const Home = (props) => {
         <Navigation></Navigation>
         <section className="hero-section">
           <div className="hero-video-wrapper">
-            <video
-              autoPlay="true"
-              muted="true"
-              loop="true"
-              playsInline="true"
-              src="https://videos.pexels.com/video-files/14134278/14134278-hd_1920_1080_25fps.mp4"
+            <img
+              src="/external/foam%20roof%20image-1500w.jpg"
+              alt="White foam roof installation in Arizona"
               className="hero-bg-video"
-            ></video>
+            />
             <div className="hero-overlay"></div>
           </div>
           <div className="hero-content">
