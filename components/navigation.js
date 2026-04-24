@@ -13,19 +13,9 @@ const Navigation = (props) => {
             <Link href="/">
               <a>
                 <div className="navigation-logo-link">
-                  <span className="navigation-brand section-title">
-                    <span>
-                      {' '}
-                      Zamora
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span className="navigation-thq-navigation-accent-text-elm1">
-                      Roofing Solutions LLC
-                    </span>
+                  <span className="navigation-brand">
+                    <span className="navigation-brand-text">ZAMORA</span>
+                    <span className="navigation-brand-sub">ROOFING SOLUTIONS LLC</span>
                   </span>
                 </div>
               </a>
@@ -187,19 +177,9 @@ const Navigation = (props) => {
             <Link href="/">
               <a>
                 <div className="navigation-logo-link">
-                  <span className="navigation-brand section-title">
-                    <span>
-                      {' '}
-                      Zamora
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span className="navigation-thq-navigation-accent-text-elm2">
-                      Roofing Solutions LLC
-                    </span>
+                  <span className="navigation-brand">
+                    <span className="navigation-brand-text">ZAMORA</span>
+                    <span className="navigation-brand-sub">ROOFING SOLUTIONS LLC</span>
                   </span>
                 </div>
               </a>
