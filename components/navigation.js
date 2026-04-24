@@ -424,9 +424,23 @@ const Navigation = (props) => {
   // Simple scroll behavior for nav bar appearance
   let lastScroll = 0
   const navWrapper = document.querySelector(".navigation-wrapper")
+  const SCROLL_THRESHOLD = 60
+
+  const syncNavState = () => {
+    if (!navWrapper) return
+    if (window.pageYOffset > SCROLL_THRESHOLD) {
+      navWrapper.classList.add("is-scrolled")
+    } else {
+      navWrapper.classList.remove("is-scrolled")
+    }
+  }
+
+  syncNavState()
 
   window.addEventListener("scroll", () => {
     const currentScroll = window.pageYOffset
+
+    syncNavState()
 
     if (currentScroll <= 0) {
       navWrapper.style.transform = "translateY(0)"

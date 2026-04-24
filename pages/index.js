@@ -477,40 +477,88 @@ const Home = (props) => {
           </div>
           <div className="gallery-grid">
             <div className="gallery-item">
-              <img
-                src="https://images.pexels.com/photos/8312917/pexels-photo-8312917.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Foam Roof Installation"
-              />
+              <div className="gallery-item-media">
+                <img
+                  src="https://images.pexels.com/photos/8312917/pexels-photo-8312917.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Foam Roof Installation"
+                  loading="lazy"
+                />
+              </div>
+              <div className="gallery-item-overlay"></div>
+              <div className="gallery-item-caption">
+                <span className="gallery-item-tag">Residential</span>
+                <p className="gallery-item-label">Seamless foam roof installation</p>
+              </div>
             </div>
             <div className="gallery-item">
-              <img
-                src="https://images.pexels.com/photos/8853526/pexels-photo-8853526.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Commercial Project"
-              />
+              <div className="gallery-item-media">
+                <img
+                  src="https://images.pexels.com/photos/8853526/pexels-photo-8853526.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Commercial Project"
+                  loading="lazy"
+                />
+              </div>
+              <div className="gallery-item-overlay"></div>
+              <div className="gallery-item-caption">
+                <span className="gallery-item-tag">Commercial</span>
+                <p className="gallery-item-label">Large-scale commercial foam system</p>
+              </div>
             </div>
             <div className="gallery-item">
-              <img
-                src="https://images.pexels.com/photos/8782730/pexels-photo-8782730.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Residential White Roof"
-              />
+              <div className="gallery-item-media">
+                <img
+                  src="https://images.pexels.com/photos/8782730/pexels-photo-8782730.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Residential White Roof"
+                  loading="lazy"
+                />
+              </div>
+              <div className="gallery-item-overlay"></div>
+              <div className="gallery-item-caption">
+                <span className="gallery-item-tag">Residential</span>
+                <p className="gallery-item-label">Reflective white topcoat finish</p>
+              </div>
             </div>
             <div className="gallery-item">
-              <img
-                src="https://images.pexels.com/photos/32387194/pexels-photo-32387194.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Desert Home Roofing"
-              />
+              <div className="gallery-item-media">
+                <img
+                  src="https://images.pexels.com/photos/32387194/pexels-photo-32387194.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Desert Home Roofing"
+                  loading="lazy"
+                />
+              </div>
+              <div className="gallery-item-overlay"></div>
+              <div className="gallery-item-caption">
+                <span className="gallery-item-tag">Residential</span>
+                <p className="gallery-item-label">Desert home complete reroof</p>
+              </div>
             </div>
             <div className="gallery-item">
-              <img
-                src="https://images.pexels.com/photos/9800001/pexels-photo-9800001.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Energy Efficient Roof"
-              />
+              <div className="gallery-item-media">
+                <img
+                  src="https://images.pexels.com/photos/9800001/pexels-photo-9800001.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Energy Efficient Roof"
+                  loading="lazy"
+                />
+              </div>
+              <div className="gallery-item-overlay"></div>
+              <div className="gallery-item-caption">
+                <span className="gallery-item-tag">Energy</span>
+                <p className="gallery-item-label">Energy-efficient cool roof</p>
+              </div>
             </div>
             <div className="gallery-item">
-              <img
-                src="https://images.pexels.com/photos/6961112/pexels-photo-6961112.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Rooftop Inspection"
-              />
+              <div className="gallery-item-media">
+                <img
+                  src="https://images.pexels.com/photos/6961112/pexels-photo-6961112.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Rooftop Inspection"
+                  loading="lazy"
+                />
+              </div>
+              <div className="gallery-item-overlay"></div>
+              <div className="gallery-item-caption">
+                <span className="gallery-item-tag">Maintenance</span>
+                <p className="gallery-item-label">Annual inspection &amp; recoating</p>
+              </div>
             </div>
           </div>
         </section>
