@@ -12,15 +12,15 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>Ill Fated Illegal Antelope</title>
-          <meta property="og:title" content="Ill Fated Illegal Antelope" />
+          <title>Zamora Roofing Solutions LLC</title>
+          <meta property="og:title" content="Zamora Roofing Solutions LLC" />
           <link
             rel="canonical"
-            href="https://ill-fated-illegal-antelope-l97iy5.teleporthq.site/"
+            href="https://foam-roofing-site.vercel.app/"
           />
           <meta
             property="og:url"
-            content="https://ill-fated-illegal-antelope-l97iy5.teleporthq.site/"
+            content="https://foam-roofing-site.vercel.app/"
           />
         </Head>
         <Navigation></Navigation>
